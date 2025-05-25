@@ -50,7 +50,7 @@
 
 ### 1. Clone the repository
 ```bash
-git clone [<repository_url>](https://github.com/abhayjit07/teamcuda_annam.git)
+git clone https://github.com/abhayjit07/teamcuda_annam.git
 ```
 ### 2. Create and activate a virtual environment
 ```bash
