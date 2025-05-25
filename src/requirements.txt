@@ -1,0 +1,29 @@
+# PyTorch for DenseNet121 and DINOv2 model loading/training
+torch>=2.0.0
+torchvision>=0.15.0
+
+# Scikit-learn for OneClassSVM, StandardScaler, train_test_split, LabelEncoder, metrics, etc.
+scikit-learn>=1.2.0
+
+# Data handling and utilities
+numpy>=1.23.0
+pandas>=1.5.0
+
+# Image loading and processing
+Pillow>=9.0.0
+
+# Progress bar during feature extraction
+tqdm>=4.64.0
+
+# Joblib for saving/loading sklearn models (SVM, scaler)
+joblib>=1.2.0
+
+# TensorBoard support for monitoring training (optional but useful for training)
+tensorboard>=2.12.0
+
+# Optional: Jupyter notebook for interactive development
+notebook>=6.5.0
+
+# Optional: matplotlib for visualization/plots
+matplotlib>=3.5.0
+
