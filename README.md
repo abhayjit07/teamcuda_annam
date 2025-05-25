@@ -46,3 +46,24 @@
 - Achieved a public leaderboard score of 0.9326.
 
 ---
+## Setup and Run Instructions
+
+### 1. Clone the repository
+```bash
+git clone [<repository_url>](https://github.com/abhayjit07/teamcuda_annam.git)
+```
+### 2. Create and activate a virtual environment
+```bash
+python3 -m venv env
+source env/bin/activate  # On Windows: env\Scripts\activate
+```
+### 3. Install dependencies
+```bash
+pip install -r requirements.txt
+```
+### 4. Download and prepare the dataset
+```bash
+bash data/download.sh
+```
+### 5. Open the notebooks training_task1.ipynb/training_task2.ipynb and run all cells to train models for respective tasks.
+### 6. Open the notebooks prediction_task1.ipynb/prediction_task2.ipynb and run all cells for evaluation.
